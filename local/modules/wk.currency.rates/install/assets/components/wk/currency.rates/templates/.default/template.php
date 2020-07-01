@@ -8,14 +8,14 @@
  */
 
 if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true) die();
-
+\CJSCore::init(array('jquery2'));
 //\Bitrix\Main\Diag\Debug::dump($arParams);
 //\Bitrix\Main\Diag\Debug::dump($arResult);
 
 ?>
 
 <div class="ratesForm">
-	Κσπρ βΰλώς
+	ΔΓ³Δ‘Ε„ ΓΆΕ•Γ«Ε£Ε
 	<div class="select">
 		<select class="select-css" id="selectrate">
 			<?foreach($arResult['RATES'] as $currency=>$rate){?>
